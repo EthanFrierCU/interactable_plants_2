@@ -17,10 +17,10 @@ public class flowerCreatorB : MonoBehaviour
     {
         flowerLoopSize = 360/rotationDeg;
         for (int i = 0; i < flowerLoopSize; i++) {
-            GameObject flowerPedalB = Instantiate(flowerPrefabB);
+            GameObject flowerPedalB = Instantiate(flowerPrefabB, this.transform);
             flowerPedalB.transform.localPosition = new Vector3(0, 2, 0);
             flowerPedalB.transform.localEulerAngles = new Vector3(0,i*rotationDeg,startPos);
-            flowerPedalB.transform.parent = transform;
+            // flowerPedalB.transform.parent = transform;
             flowerPedalB.transform.localPosition = new Vector3(0,0,0);
 
         }

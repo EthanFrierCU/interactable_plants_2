@@ -455,6 +455,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1266817748}
   - component: {fileID: 1266817749}
+  - component: {fileID: 1266817750}
   m_Layer: 0
   m_Name: Spray Target
   m_TagString: Untagged
@@ -492,10 +493,23 @@ MonoBehaviour:
   debug: 0
   type: 
   hoverTime: 1
-  sprayObject: {fileID: 8135639688137187986, guid: c0867891f16b1402ea22dc5f2852c253,
+  sprayObject: {fileID: 2059194812062732331, guid: 643ad67c419614d3a891d034d8de6775,
     type: 3}
   prevPosition: {x: 0, y: 0, z: 0}
   spacing: 1
+--- !u!65 &1266817750
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1266817747}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 100, y: 0.1, z: 100}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1623915526
 GameObject:
   m_ObjectHideFlags: 0
